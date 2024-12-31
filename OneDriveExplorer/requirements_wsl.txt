@@ -1,0 +1,8 @@
+# This is only for final analysis [in wsl] of file created [in windows] using 
+#   python .\OneDriveExplorer\OneDriveExplorer.py -s //C:/D/code/OneDriveExplorer/tmp/Personal --csv tmp
+pandas
+openpyxl
+
+# for Jupyter notebook
+ipykernel
+jinja2 # for formatting e.g. pivot_table

@@ -27,11 +27,11 @@ import hashlib
 import logging
 import pandas as pd
 from Registry import Registry
-import ode.parsers.recbin
+# import ode.parsers.recbin
 
 log = logging.getLogger(__name__)
 
-find_deleted = ode.parsers.recbin.DeleteProcessor()
+# find_deleted = ode.parsers.recbin.DeleteProcessor()
 
 
 class OneDriveParser:
@@ -166,10 +166,10 @@ class OneDriveParser:
             if parent_resource_id in parent_resource_dict:
                 rbin_df.at[index, 'Path'] = parent_resource_dict[parent_resource_id]
 
-        if reghive and recbin:
-            rbin = find_deleted.find_deleted(recbin, od_keys, localHashAlgorithm, rbin_df, gui=gui, pb=pb, value_label=value_label)
-            lrbin_df = pd.DataFrame.from_records(rbin)
-            rbin_df = pd.concat([rbin_df, lrbin_df], ignore_index=True, axis=0)
+        # if reghive and recbin:
+        #     rbin = find_deleted.find_deleted(recbin, od_keys, localHashAlgorithm, rbin_df, gui=gui, pb=pb, value_label=value_label)
+        #     lrbin_df = pd.DataFrame.from_records(rbin)
+        #     rbin_df = pd.concat([rbin_df, lrbin_df], ignore_index=True, axis=0)
 
         df['FileSort'] = ''
         df['FolderSort'] = ''

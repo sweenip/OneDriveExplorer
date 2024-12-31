@@ -234,12 +234,13 @@ def main():
                 sys.exit()
 
     if args.sql:
-        sql_dir = re.compile(r'\\Users\\(?P<user>.*?)\\AppData\\Local\\Microsoft\\OneDrive\\settings\\(?P<account>.*?)$')
-        sql_find = re.findall(sql_dir, args.sql)
-        try:
-            name = f'{sql_find[0][0]}_{sql_find[0][1]}'
-        except Exception:
-            name = 'SQLite_DB'
+        # sql_dir = re.compile(r'\\Users\\(?P<user>.*?)\\AppData\\Local\\Microsoft\\OneDrive\\settings\\(?P<account>.*?)$')
+        # sql_find = re.findall(sql_dir, args.sql)
+        # try:
+        #     name = f'{sql_find[0][0]}_{sql_find[0][1]}'
+        # except Exception:
+        #     name = 'SQLite_DB'
+        name = 'SQLite_DB'
 
         threading.Thread(target=parse_sql_thread,
                          args=(args.sql,),

@@ -1,16 +1,16 @@
-ttkthemes
-Pillow
+# ttkthemes
+# Pillow
 pandas
-numpy
+# numpy
 pytz
 python-registry
-keyboard
+# keyboard
 openpyxl
-pandastable
+# pandastable
 dissect.cstruct
-psutil
-pytsk3
-quickxorhash
+# psutil
+# pytsk3
+# quickxorhash
 pycryptodome
 ruamel.yaml
 Cerberus
