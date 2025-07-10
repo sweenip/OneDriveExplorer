@@ -1,3 +1,6 @@
+
+# Using OneDriveExplorer
+
 Will not run in WSL .. must use windows
 
 Created a dev branch
@@ -22,3 +25,14 @@ python .\OneDriveExplorer\OneDriveExplorer.py -s //C:/D/code/OneDriveExplorer/tm
 ![alt text](sweeni_assets/conflict.png)
 
 ![alt text](sweeni_assets/deleted.png)
+
+# Using ProcMon
+Ran sysinternals/ProcMon64.exe with following filter
+
+[sweeni/ProcMon/OneDrive_3.PMF](sweeni/ProcMon/OneDrive_3.PMF)
+
+![](sweeni/ProcMon/OneDrive_3.png)
+
+data was exported as csv
+
+Nothing really analyzable here yet.
