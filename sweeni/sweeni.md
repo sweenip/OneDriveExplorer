@@ -37,3 +37,13 @@ data was exported as csv
 Nothing really analyzable here yet.
 
 
+# Installing tkinter
+```bash
+source .venv/bin/activate
+sudo apt-get install python3-tk
+python
+# Python 3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0] on linux
+# Type "help", "copyright", "credits" or "license" for more information.
+# >>> import tkinter
+# >>> quit()
+```
