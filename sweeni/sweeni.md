@@ -1,4 +1,3 @@
-
 # Using OneDriveExplorer
 
 Will not run in WSL .. must use windows
@@ -22,17 +21,19 @@ python .\OneDriveExplorer\OneDriveExplorer.py -s //C:/D/code/OneDriveExplorer/tm
 # Creates output file tmp\Personal\SQLite_DB_OneDrive.csv
 ```
 
-![alt text](sweeni_assets/conflict.png)
+![alt text](assets/conflict.png)
 
-![alt text](sweeni_assets/deleted.png)
+![alt text](assets/deleted.png)
 
 # Using ProcMon
 Ran sysinternals/ProcMon64.exe with following filter
 
-[sweeni/ProcMon/OneDrive_3.PMF](sweeni/ProcMon/OneDrive_3.PMF)
+[assets/ProcMon/OneDrive_3.PMF](assets/ProcMon/OneDrive_3.PMF)
 
-![](sweeni/ProcMon/OneDrive_3.png)
+![](assets/ProcMon/OneDrive_3.png)
 
 data was exported as csv
 
 Nothing really analyzable here yet.
+
+

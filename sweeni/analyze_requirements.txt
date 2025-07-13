@@ -1,0 +1,4 @@
+pandas
+openpyxl
+ipykernel # for Jupyter notebooks
+jinja2 # for formatting e.g. pivot_table
