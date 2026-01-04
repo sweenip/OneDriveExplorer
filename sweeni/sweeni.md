@@ -47,3 +47,13 @@ python
 # >>> import tkinter
 # >>> quit()
 ```
+
+# Activating GUI version
+
+https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
+
+![alt text](images/msbuildtools_before.png)
+
+unchecked everything on the right except teh following
+![alt text](images/msbuildtools.png)
